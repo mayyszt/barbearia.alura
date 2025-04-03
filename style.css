@@ -1,22 +1,22 @@
-header{
+header {
     background: #BBBBBB;
     padding: 20px 0;
 }
 
-.caixa{
+.caixa {
    position:relative;
    width: 940px;
    margin: 0 auto;
 
 }
 
-nav{
+nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
@@ -29,7 +29,7 @@ nav a{
     text-decoration: none;
 }
 
-nav a: :hover{
+nav a: :hover {
     color: ##C78C19;
     text-decoration: underline;
 }
@@ -52,11 +52,11 @@ nav a: :hover{
     border-radius: 10px;
 }
 
-.produtos li:hover{
+.produtos li:hover {
     border-color:#C78C19 ;
 }
 
-.produtos li:active{
+.produtos li:active {
     border-color: #088C19;
 }
 
@@ -76,7 +76,7 @@ nav a: :hover{
 }
 
 footer{
-    footer {
+     {
         text-align: center;
         background: url("bg.jpg");
         padding: 40px 0;
@@ -89,7 +89,7 @@ footer{
     }
 }
 
-.copyright{
+.copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin: ;
@@ -117,4 +117,26 @@ form input, form textarea {
     width: 50%;
 }
 
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+p {
+    color: red;
+}
+
+form p {
+    color: blue;
+}
+
+.teste{
+    color: yellow;
+}
 
